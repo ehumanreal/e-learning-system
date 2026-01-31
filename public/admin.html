@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Panel administracyjny - e-Learning</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .login-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #f0f2f5;
+    }
+    
+    body.dark .login-container {
+      background: #1a1a1a;
+    }
+    
+    .login-box {
+      background: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 360px;
+    }
+    
+    body.dark .login-box {
+      background: #2a2a2a;
+    }
+    
+    .login-box h1 {
+      margin: 0 0 24px 0;
+      text-align: center;
+      color: #0078d4;
+      font-size: 28px;
+    }
+    
+    .login-box input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 16px;
+      border: 1px solid #d0d0d0;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    
+    body.dark .login-box input {
+      background: #333;
+      color: #eee;
+      border-color: #444;
+    }
+    
+    .login-box .btn {
+      width: 100%;
+    }
+    
+    .error {
+      color: #dc3545;
+      margin-bottom: 12px;
+      text-align: center;
+      font-size: 14px;
+    }
+    
+    .login-box p {
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+      margin-top: 16px;
+    }
+    
+    body.dark .login-box p {
+      color: #999;
+    }
+    
+    #content { display: none; }
+  </style>
+</head>
+<body>
+  <header class="header" style="display:none" id="header">
+    <h1>Panel administracyjny</h1>
+    <div style="display:flex;gap:12px">
+      <button id="darkToggle2" class="tab-btn">🌙 Tryb ciemny</button>
+      <button id="logoutBtn" class="btn">Wyloguj się</button>
+    </div>
+  </header>
+  
+  <!-- Login Screen -->
+  <div class="login-container" id="loginContainer">
+    <div class="login-box">
+      <h1>🔐 Panel admin</h1>
+      <div id="errorMsg" class="error"></div>
+      <input id="passwordInput" type="password" placeholder="Hasło dostępu" autocomplete="off">
+      <button id="loginBtn" class="btn">Zaloguj się</button>
+      <p>e-Learning — Panel zarządzania treścią</p>
+    </div>
+  </div>
+  
+  <!-- Admin Panel -->
+  <div id="content">
+    <div class="main-wrapper">
+      <div class="main-content">
+        <div class="section">
+          <h2>Panel administracyjny</h2>
+          <p>Zarządzaj przedmiotami, sprawdzianami i pytaniami</p>
+        </div>
+        
+        <div class="section admin-section">
+          <h3>Dodaj przedmiot</h3>
+          <input id="newSubjectName" placeholder="Nazwa przedmiotu">
+          <button id="createSubjectBtn" class="btn btn-sm">Dodaj</button>
+        </div>
+        
+        <div class="section admin-section">
+          <h3>Usuń przedmiot</h3>
+          <select id="selectSubjectForDelete"></select>
+          <button id="deleteSubjectBtn" class="btn btn-sm btn-danger">Usuń przedmiot</button>
+        </div>
+        
+        <div class="section admin-section">
+          <h3>Dodaj sprawdzian</h3>
+          <select id="selectSubjectForTest"></select>
+          <input id="newTestName" placeholder="Nazwa sprawdzianu">
+          <button id="createTestBtn" class="btn btn-sm">Dodaj sprawdzian</button>
+        </div>
+        
+        <div class="section admin-section">
+          <h3>Usuń sprawdzian</h3>
+          <select id="selectSubjectForTestDelete"></select>
+          <select id="selectTestForDelete"></select>
+          <button id="deleteTestBtn" class="btn btn-sm btn-danger">Usuń sprawdzian</button>
+        </div>
+      </div>
+      
+      <aside class="admin-sidebar">
+        <div class="admin-panel">
+          <h3>➕ Dodaj pytanie</h3>
+          <div class="admin-section">
+            <label style="font-size:12px;color:#666">Przedmiot</label>
+            <select id="selectSubjectForQuestion"></select>
+            <label style="font-size:12px;color:#666;margin-top:8px;display:block">Test</label>
+            <select id="selectTestForQuestion"></select>
+            <label style="font-size:12px;color:#666;margin-top:8px;display:block">Typ</label>
+            <select id="questionType">
+              <option value="mcq">Wielokrotny wybór (a/b/c)</option>
+              <option value="tf">Tak/Nie</option>
+            </select>
+            <input id="questionText" placeholder="Treść pytania" style="margin-top:8px">
+            
+            <div id="mcqOptionsInputs" style="display:block;margin-top:8px">
+              <p style="margin:0;font-size:11px;color:#666">Opcje:</p>
+              <input placeholder="a) Opcja 1" class="mcqOpt" style="margin:3px 0">
+              <input placeholder="b) Opcja 2" class="mcqOpt" style="margin:3px 0">
+              <input placeholder="c) Opcja 3" class="mcqOpt" style="margin:3px 0">
+              <p style="margin:8px 0 0 0;font-size:11px;color:#666">Poprawna:</p>
+              <select id="mcqCorrect" style="margin:3px 0">
+                <option value="">-- Wybierz --</option>
+                <option value="0">a) Opcja 1</option>
+                <option value="1">b) Opcja 2</option>
+                <option value="2">c) Opcja 3</option>
+              </select>
+            </div>
+            
+            <div id="tfCorrectInputs" style="display:none;margin-top:8px">
+              <p style="margin:0;font-size:11px;color:#666">Poprawna:</p>
+              <label style="display:block;margin:4px 0;font-size:13px"><input type="radio" name="tfCorrect" value="true"> Tak</label>
+              <label style="display:block;font-size:13px"><input type="radio" name="tfCorrect" value="false"> Nie</label>
+            </div>
+            
+            <button id="createQuestionBtn" class="btn btn-sm" style="margin-top:12px;width:100%">Dodaj pytanie</button>
+          </div>
+        </div>
+        
+        <div class="admin-panel" style="margin-top:16px">
+          <h3>🗑️ Usuń pytanie</h3>
+          <div class="admin-section">
+            <select id="selectSubjectForQuestionDelete"></select>
+            <select id="selectTestForQuestionDelete"></select>
+            <select id="selectQuestionForDelete"></select>
+            <button id="deleteQuestionBtn" class="btn btn-sm btn-danger" style="width:100%">Usuń pytanie</button>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+  
+  <script src="/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>e-Learning</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>e-Learning</h1>
+    <button id="darkToggle" class="tab-btn">🌙 Tryb ciemny</button>
+  </header>
+  
+  <div class="main-wrapper">
+    <!-- Lewa strona - Nauka -->
+    <div class="main-content">
+      <div class="section">
+        <h3>Przedmioty</h3>
+        <div id="subjects" class="tabs-horizontal"></div>
+      </div>
+      
+      <div class="section">
+        <h3>Sprawdziany</h3>
+        <div id="tests" class="tabs-horizontal"></div>
+      </div>
+      
+      <div class="section question-section">
+        <div id="content"></div>
+      </div>
+    </div>
+    
+    <!-- Link do panelu admin -->
+    <aside class="admin-sidebar">
+      <div class="admin-panel">
+        <h3>⚙️ Zarządzanie</h3>
+        <a href="/admin.html" class="btn" style="display:block;text-align:center;text-decoration:none;margin-bottom:8px">Panel administracyjny</a>
+        <p style="font-size:12px;color:#666;margin:0">Edytuj przedmioty, sprawdziany i pytania</p>
+      </div>
+    </aside>
+  </div>
+  
+  <script src="/app.js"></script>
+</body>
+</html>
