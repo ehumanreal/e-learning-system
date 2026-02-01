@@ -52,7 +52,7 @@ let session = null; // { test, questions, index, correctCount }
 async function loadTest(testId) {
   const test = await api(`/tests/${testId}`);
   const questions = shuffle(test.questions);
-  session = { test, questions, index: 0, correctCount: 0 };
+  session = { test, questions, index: 0, correctCount: 0, wrong: [], isRepeat: false };
   renderCurrentQuestion();
 }
 
@@ -65,7 +65,9 @@ function renderCurrentQuestion() {
 
   const q = questions[index];
   clearChildren(contentEl);
-  const title = document.createElement('h2'); title.textContent = test.name; contentEl.appendChild(title);
+  const title = document.createElement('h2');
+  title.textContent = test.name + (session.isRepeat ? ' - Powtórka błędnych' : '');
+  contentEl.appendChild(title);
 
   const qBox = document.createElement('div'); qBox.className = 'question';
   const p = document.createElement('div'); p.textContent = `( ${index + 1} / ${questions.length} ) ` + q.text; qBox.appendChild(p);
@@ -90,8 +92,12 @@ function renderCurrentQuestion() {
     if (isCorrect) {
       btn.classList.add('correct');
       session.correctCount++;
+      // if we are in a repeat run and the question was previously wrong,
+      // we don't need to do anything special here.
     } else {
       btn.classList.add('wrong');
+      // save wrong question for later repeat (avoid duplicates)
+      if (!session.wrong.some(w => w === q)) session.wrong.push(q);
       // highlight correct
       Array.from(opts.children).forEach(ch => {
         if (ch.dataset.value === String(q.correct) || (q.type === 'tf' && ((q.correct === true && ch.textContent === 'Tak') || (q.correct === false && ch.textContent === 'Nie')))) {
@@ -136,9 +142,22 @@ function renderSummary() {
   clearChildren(contentEl);
   const h = document.createElement('h2'); h.textContent = session.test.name + ' - Wynik'; contentEl.appendChild(h);
   const p = document.createElement('div'); p.textContent = `Poprawne: ${session.correctCount} / ${session.questions.length}`; p.style.marginTop = '8px'; contentEl.appendChild(p);
-  const restart = document.createElement('button'); restart.className = 'btn'; restart.textContent = 'Uruchom ponownie test'; restart.style.marginTop = '12px';
-  restart.onclick = () => { session.index = 0; session.correctCount = 0; session.questions = shuffle(session.test.questions); renderCurrentQuestion(); };
+    const restart = document.createElement('button'); restart.className = 'btn'; restart.textContent = 'Uruchom ponownie test'; restart.style.marginTop = '12px';
+  restart.onclick = () => { session.index = 0; session.correctCount = 0; session.questions = shuffle(session.test.questions); session.wrong = []; session.isRepeat = false; renderCurrentQuestion(); };
   contentEl.appendChild(restart);
+
+  if (session.wrong && session.wrong.length > 0) {
+    const repeat = document.createElement('button'); repeat.className = 'btn'; repeat.textContent = 'Powtórz błędne pytania'; repeat.style.marginTop = '8px';
+    repeat.onclick = () => {
+      session.questions = shuffle(session.wrong.slice());
+      session.index = 0;
+      session.correctCount = 0;
+      session.wrong = [];
+      session.isRepeat = true;
+      renderCurrentQuestion();
+    };
+    contentEl.appendChild(repeat);
+  }
 }
 
 loadSubjects();

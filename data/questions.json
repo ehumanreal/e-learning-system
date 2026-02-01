@@ -18,7 +18,827 @@
                 "3"
               ],
               "correct": "1"
+            },
+            {
+              "id": "q-add-1",
+              "type": "mcq",
+              "text": "Ile aminokwasów białkowych występuje w przyrodzie?",
+              "options": [
+                "20",
+                "100",
+                "5"
+              ],
+              "correct": "20"
+            },
+            {
+              "id": "q-add-2",
+              "type": "mcq",
+              "text": "Ile aminokwasów jest egzogennych (musi być dostarczonych z pożywieniem)?",
+              "options": [
+                "9",
+                "11",
+                "20"
+              ],
+              "correct": "9"
+            },
+            {
+              "id": "q-add-3",
+              "type": "mcq",
+              "text": "Czym jest gluten?",
+              "options": [
+                "Mieszaniną białek roślinnych (gliadyny i gluteniny)",
+                "Cukrem prostym",
+                "Rodzajem tłuszczu"
+              ],
+              "correct": "Mieszaniną białek roślinnych (gliadyny i gluteniny)"
+            },
+            {
+              "id": "q-add-4",
+              "type": "mcq",
+              "text": "W czym rozpuszczają się gluteliny (białka zbóż)?",
+              "options": [
+                "W kwasach i zasadach",
+                "W samej wodzie",
+                "W alkoholu"
+              ],
+              "correct": "W kwasach i zasadach"
+            },
+            {
+              "id": "q-add-5",
+              "type": "mcq",
+              "text": "Przykładem nukleoproteiny jest:",
+              "options": [
+                "DNA i RNA (połączenie z białkami)",
+                "Hemoglobina",
+                "Kazeina"
+              ],
+              "correct": "DNA i RNA (połączenie z białkami)"
+            },
+            {
+              "id": "q-add-6",
+              "type": "mcq",
+              "text": "Co zawierają metaloproteiny?",
+              "options": [
+                "Atomy metali (np. miedź, żelazo, cynk)",
+                "Reszty kwasu fosforowego",
+                "Cukry"
+              ],
+              "correct": "Atomy metali (np. miedź, żelazo, cynk)"
+            },
+            {
+              "id": "q-add-7",
+              "type": "mcq",
+              "text": "Do czego w przemyśle chemicznym wykorzystuje się kazeinę?",
+              "options": [
+                "Do produkcji klejów",
+                "Do produkcji paliwa",
+                "Do produkcji szkła"
+              ],
+              "correct": "Do produkcji klejów"
+            },
+            {
+              "id": "q-add-8",
+              "type": "mcq",
+              "text": "Z czego produkuje się osłonki kulek do paintballa?",
+              "options": [
+                "Z żelatyny",
+                "Z plastiku",
+                "Z celulozy"
+              ],
+              "correct": "Z żelatyny"
+            },
+            {
+              "id": "q-add-9",
+              "type": "mcq",
+              "text": "Jaką funkcję pełni gluten w wypiekach?",
+              "options": [
+                "Nadaje ciastu kleistość i ciągliwość",
+                "Nadaje słodki smak",
+                "Powoduje szybkie psucie się ciasta"
+              ],
+              "correct": "Nadaje ciastu kleistość i ciągliwość"
+            },
+            {
+              "id": "q-add-10",
+              "type": "mcq",
+              "text": "Na czym polega konserwujące działanie soli i cukru?",
+              "options": [
+                "Na wydzielaniu wody z komórek bakterii (osmoza)",
+                "Na obniżeniu temperatury",
+                "Na zmianie pH na zasadowe"
+              ],
+              "correct": "Na wydzielaniu wody z komórek bakterii (osmoza)"
+            },
+            {
+              "id": "q-add-11",
+              "type": "mcq",
+              "text": "Jak działa dym wędzarniczy na żywność?",
+              "options": [
+                "Grzybobójczo i bakteriobójczo",
+                "Nawilżająco",
+                "Przyspiesza psucie"
+              ],
+              "correct": "Grzybobójczo i bakteriobójczo"
+            },
+            {
+              "id": "q-add-12",
+              "type": "mcq",
+              "text": "Ile wody usuwa się zazwyczaj podczas suszenia żywności?",
+              "options": [
+                "Około 70%",
+                "100%",
+                "10%"
+              ],
+              "correct": "Około 70%"
+            },
+            {
+              "id": "q-add-13",
+              "type": "mcq",
+              "text": "Czego używa się w przemyśle do szybkiego mrożenia żywności?",
+              "options": [
+                "Ciekłego azotu",
+                "Suchego lodu",
+                "Zimnej wody"
+              ],
+              "correct": "Ciekłego azotu"
+            },
+            {
+              "id": "q-add-14",
+              "type": "mcq",
+              "text": "Jaki jest skutek gotowania żywności?",
+              "options": [
+                "Denaturacja białek i ułatwienie trawienia",
+                "Zwiększenie zawartości witamin",
+                "Zwiększenie twardości mięsa"
+              ],
+              "correct": "Denaturacja białek i ułatwienie trawienia"
             }
+          ]
+        },
+        {
+          "id": "test-biochemia-2026",
+          "name": "Hydroksykwasy, Aminokwasy, Białka i Żywność (Pełny)",
+          "questions": [
+            {
+              "id": "q-h-1",
+              "type": "mcq",
+              "text": "Czym są hydroksykwasy?",
+              "options": [
+                "Pochodnymi kwasów karboksylowych",
+                "Pochodnymi alkoholi",
+                "Estrami kwasów nieorganicznych"
+              ],
+              "correct": "Pochodnymi kwasów karboksylowych"
+            },
+            {
+              "id": "q-h-2",
+              "type": "mcq",
+              "text": "Jakie grupy funkcyjne zawiera cząsteczka hydroksykwasu?",
+              "options": [
+                "Karboksylową (-COOH) i hydroksylową (-OH)",
+                "Karboksylową (-COOH) i aminową (-NH2)",
+                "Hydroksylową (-OH) i aldehydową (-CHO)"
+              ],
+              "correct": "Karboksylową (-COOH) i hydroksylową (-OH)"
+            },
+            {
+              "id": "q-h-3",
+              "type": "mcq",
+              "text": "Który z poniższych związków jest hydroksykwasem?",
+              "options": [
+                "Kwas glikolowy",
+                "Kwas octowy",
+                "Kwas solny"
+              ],
+              "correct": "Kwas glikolowy"
+            },
+            {
+              "id": "q-h-4",
+              "type": "mcq",
+              "text": "Pochodną jakiego kwasu jest kwas mlekowy?",
+              "options": [
+                "Kwasu propanowego",
+                "Kwasu etanowego",
+                "Kwasu butanowego"
+              ],
+              "correct": "Kwasu propanowego"
+            },
+            {
+              "id": "q-h-5",
+              "type": "mcq",
+              "text": "Z jakiego kwasu wywodzi się kwas jabłkowy (hydroksybutanowy)?",
+              "options": [
+                "Z kwasu masłowego",
+                "Z kwasu octowego",
+                "Z kwasu mrówkowego"
+              ],
+              "correct": "Z kwasu masłowego"
+            },
+            {
+              "id": "q-h-6",
+              "type": "mcq",
+              "text": "Co zastępuje grupa –OH w cząsteczkach hydroksykwasów?",
+              "options": [
+                "Atom wodoru w łańcuchu węglowym",
+                "Grupę karboksylową",
+                "Atom tlenu w grupie karboksylowej"
+              ],
+              "correct": "Atom wodoru w łańcuchu węglowym"
+            },
+            {
+              "id": "q-h-7",
+              "type": "mcq",
+              "text": "Który wzór przedstawia kwas mlekowy?",
+              "options": ["CH₃–CH₂–COOH", "CH₃–CH(OH)–COOH", "HO–CH₂–COOH"],
+              "correct": "CH₃–CH(OH)–COOH"
+            },
+            {
+              "id": "q-h-8",
+              "type": "mcq",
+              "text": "Kwas glikolowy powstaje z:",
+              "options": ["kwasu metanowego", "kwasu etanowego", "kwasu propanowego"],
+              "correct": "kwasu etanowego"
+            },
+            {
+              "id": "q-h-9",
+              "type": "mcq",
+              "text": "Do hydroksykwasów należy:",
+              "options": ["kwas octowy", "kwas masłowy", "kwas hydroksybutanowy"],
+              "correct": "kwas hydroksybutanowy"
+            },
+            {
+              "id": "q-f-1",
+              "type": "mcq",
+              "text": "Co powoduje fermentację mlekową?",
+              "options": [
+                "Bakterie kwasu mlekowego",
+                "Drożdże",
+                "Wirusy"
+              ],
+              "correct": "Bakterie kwasu mlekowego"
+            },
+            {
+              "id": "q-f-2",
+              "type": "mcq",
+              "text": "Ile etapów ma proces fermentacji mlekowej?",
+              "options": [
+                "Dwa etapy",
+                "Jeden etap",
+                "Trzy etapy"
+              ],
+              "correct": "Dwa etapy"
+            },
+            {
+              "id": "q-f-3",
+              "type": "mcq",
+              "text": "Na co rozpada się laktoza w pierwszym etapie fermentacji?",
+              "options": [
+                "Na glukozę i galaktozę",
+                "Na glukozę i fruktozę",
+                "Na dwie cząsteczki glukozy"
+              ],
+              "correct": "Na glukozę i galaktozę"
+            },
+            {
+              "id": "q-f-4",
+              "type": "mcq",
+              "text": "Co jest głównym produktem fermentacji mlekowej glukozy?",
+              "options": [
+                "Kwas mlekowy",
+                "Etanol",
+                "Kwas octowy"
+              ],
+              "correct": "Kwas mlekowy"
+            },
+            {
+              "id": "q-f-5",
+              "type": "mcq",
+              "text": "Na czym polega pasteryzacja mleka?",
+              "options": [
+                "Na ogrzaniu w celu usunięcia mikroorganizmów",
+                "Na zamrożeniu mleka",
+                "Na dodaniu dużej ilości soli"
+              ],
+              "correct": "Na ogrzaniu w celu usunięcia mikroorganizmów"
+            },
+            {
+              "id": "q-f-6",
+              "type": "mcq",
+              "text": "W drugim etapie fermentacji mlekowej glukoza przekształca się w:",
+              "options": ["kwas octowy", "kwas mlekowy", "etanol"],
+              "correct": "kwas mlekowy"
+            },
+            {
+              "id": "q-f-7",
+              "type": "mcq",
+              "text": "Enzym podpuszczki powoduje:",
+              "options": ["fermentację alkoholu", "ścinanie mleka", "pasteryzację"],
+              "correct": "ścinanie mleka"
+            },
+            {
+              "id": "q-a-1",
+              "type": "mcq",
+              "text": "Czym chemicznie są aminokwasy?",
+              "options": [
+                "Pochodnymi kwasów karboksylowych",
+                "Cukrami prostymi",
+                "Tłuszczami nasyconymi"
+              ],
+              "correct": "Pochodnymi kwasów karboksylowych"
+            },
+            {
+              "id": "q-a-2",
+              "type": "mcq",
+              "text": "Jaką grupę funkcyjną (oprócz karboksylowej) zawierają aminokwasy?",
+              "options": [
+                "Aminową (-NH2)",
+                "Hydroksylową (-OH)",
+                "Aldehydową (-CHO)"
+              ],
+              "correct": "Aminową (-NH2)"
+            },
+            {
+              "id": "q-a-3",
+              "type": "mcq",
+              "text": "Do jakiej grupy związków należy glicyna?",
+              "options": [
+                "Do aminokwasów białkowych",
+                "Do cukrów złożonych",
+                "Do witamin rozpuszczalnych w tłuszczach"
+              ],
+              "correct": "Do aminokwasów białkowych"
+            },
+            {
+              "id": "q-a-4",
+              "type": "mcq",
+              "text": "Czy wszystkie aminokwasy powstają w organizmie człowieka?",
+              "options": [
+                "Nie, część musi być dostarczona z pożywieniem (egzogenne)",
+                "Tak, wszystkie są endogenne",
+                "Żadne nie powstają w organizmie"
+              ],
+              "correct": "Nie, część musi być dostarczona z pożywieniem (egzogenne)"
+            },
+            {
+              "id": "q-a-5",
+              "type": "mcq",
+              "text": "Skąd organizm czerpie aminokwasy egzogenne?",
+              "options": [
+                "Muszą być dostarczane z pożywieniem",
+                "Organizm wytwarza je samodzielnie",
+                "Powstają z rozpadu kości"
+              ],
+              "correct": "Muszą być dostarczane z pożywieniem"
+            },
+            {
+              "id": "q-a-6",
+              "type": "mcq",
+              "text": "Glicyna to:",
+              "options": ["kwas aminopropanowy", "kwas aminoetanowy", "kwas aminobutanowy"],
+              "correct": "kwas aminoetanowy"
+            },
+            {
+              "id": "q-a-7",
+              "type": "mcq",
+              "text": "Alanina powstaje z:",
+              "options": ["kwasu etanowego", "kwasu propanowego", "kwasu masłowego"],
+              "correct": "kwasu propanowego"
+            },
+            {
+              "id": "q-a-8",
+              "type": "mcq",
+              "text": "Grupa zasadowa w aminokwasach to:",
+              "options": ["–COOH", "–OH", "–NH₂"],
+              "correct": "–NH₂"
+            },
+            {
+              "id": "q-wg-1",
+              "type": "mcq",
+              "text": "Jaki stan skupienia ma glicyna w temperaturze pokojowej?",
+              "options": [
+                "Stały (krystaliczny)",
+                "Ciekły",
+                "Gazowy"
+              ],
+              "correct": "Stały (krystaliczny)"
+            },
+            {
+              "id": "q-wg-2",
+              "type": "mcq",
+              "text": "Jaką barwę ma glicyna?",
+              "options": [
+                "Jest bezbarwna",
+                "Żółtą",
+                "Niebieską"
+              ],
+              "correct": "Jest bezbarwna"
+            },
+            {
+              "id": "q-wg-3",
+              "type": "mcq",
+              "text": "Jak glicyna zachowuje się w wodzie?",
+              "options": [
+                "Dobrze się rozpuszcza",
+                "Nie rozpuszcza się",
+                "Tworzy zawiesinę"
+              ],
+              "correct": "Dobrze się rozpuszcza"
+            },
+            {
+              "id": "q-wg-4",
+              "type": "mcq",
+              "text": "Z czym reaguje glicyna?",
+              "options": [
+                "Zarówno z kwasami, jak i zasadami",
+                "Tylko z kwasami",
+                "Tylko z zasadami"
+              ],
+              "correct": "Zarówno z kwasami, jak i zasadami"
+            },
+            {
+              "id": "q-wg-5",
+              "type": "mcq",
+              "text": "Jaki charakter chemiczny ma glicyna?",
+              "options": [
+                "Amfoteryczny",
+                "Kwasowy",
+                "Zasadowy"
+              ],
+              "correct": "Amfoteryczny"
+            },
+            {
+              "id": "q-dp-1",
+              "type": "mcq",
+              "text": "Z ilu aminokwasów składa się dipeptyd?",
+              "options": [
+                "Z dwóch",
+                "Z jednego",
+                "Z trzech"
+              ],
+              "correct": "Z dwóch"
+            },
+            {
+              "id": "q-dp-2",
+              "type": "mcq",
+              "text": "Jaki produkt uboczny powstaje przy tworzeniu wiązania peptydowego?",
+              "options": [
+                "Woda",
+                "Wodór",
+                "Tlen"
+              ],
+              "correct": "Woda"
+            },
+            {
+              "id": "q-dp-3",
+              "type": "mcq",
+              "text": "Jak nazywa się reakcja łączenia aminokwasów?",
+              "options": [
+                "Kondensacja",
+                "Hydroliza",
+                "Spalanie"
+              ],
+              "correct": "Kondensacja"
+            },
+            {
+              "id": "q-dp-4",
+              "type": "mcq",
+              "text": "Jak nazywa się wiązanie łączące aminokwasy w białkach?",
+              "options": [
+                "Peptydowe",
+                "Jonowe",
+                "Wodorowe"
+              ],
+              "correct": "Peptydowe"
+            },
+            {
+              "id": "q-dp-5",
+              "type": "mcq",
+              "text": "Reakcja tworzenia dipeptydu to:",
+              "options": ["fermentacja", "kondensacja", "utlenianie"],
+              "correct": "kondensacja"
+            },
+            {
+              "id": "q-b-1",
+              "type": "mcq",
+              "text": "Czym chemicznie są białka?",
+              "options": [
+                "Polipeptydami",
+                "Cukrami",
+                "Tłuszczami"
+              ],
+              "correct": "Polipeptydami"
+            },
+            {
+              "id": "q-b-2",
+              "type": "mcq",
+              "text": "Ile aminokwasów zawiera cząsteczka białka (wg definicji szkolnej)?",
+              "options": [
+                "Co najmniej 100",
+                "Mniej niż 10",
+                "Od 10 do 50"
+              ],
+              "correct": "Co najmniej 100"
+            },
+            {
+              "id": "q-b-3",
+              "type": "mcq",
+              "text": "Jaka jest przybliżona dzienna norma białka dla dorosłego człowieka?",
+              "options": [
+                "1 g na 1 kg masy ciała",
+                "10 g na 1 kg masy ciała",
+                "0,1 g na 1 kg masy ciała"
+              ],
+              "correct": "1 g na 1 kg masy ciała"
+            },
+            {
+              "id": "q-b-4",
+              "type": "mcq",
+              "text": "Białka zbudowane wyłącznie z aminokwasów to białka:",
+              "options": ["złożone", "proste", "enzymatyczne"],
+              "correct": "proste"
+            },
+            {
+              "id": "q-s-1",
+              "type": "mcq",
+              "text": "Co określa struktura pierwszorzędowa białka?",
+              "options": [
+                "Kolejność aminokwasów w łańcuchu",
+                "Układ przestrzenny łańcucha (helisa)",
+                "Połączenie kilku łańcuchów"
+              ],
+              "correct": "Kolejność aminokwasów w łańcuchu"
+            },
+            {
+              "id": "q-s-2",
+              "type": "mcq",
+              "text": "Jakie formy obejmuje struktura drugorzędowa białka?",
+              "options": [
+                "Alfa-helisę i beta-harmonijkę",
+                "Tylko kłębek statystyczny",
+                "Tylko strukturę czwartorzędową"
+              ],
+              "correct": "Alfa-helisę i beta-harmonijkę"
+            },
+            {
+              "id": "q-s-3",
+              "type": "mcq",
+              "text": "Jaką strukturę posiada hemoglobina?",
+              "options": [
+                "Czwartorzędową",
+                "Pierwszorzędową",
+                "Drugorzędową"
+              ],
+              "correct": "Czwartorzędową"
+            },
+            {
+              "id": "q-s-4",
+              "type": "mcq",
+              "text": "Jaką strukturę posiada mioglobina?",
+              "options": [
+                "Trzeciorzędową",
+                "Czwartorzędową",
+                "Pierwszorzędową"
+              ],
+              "correct": "Trzeciorzędową"
+            },
+            {
+              "id": "q-s-5",
+              "type": "mcq",
+              "text": "Struktura β jest stabilizowana przez:",
+              "options": ["wiązania jonowe", "wiązania wodorowe", "wiązania metaliczne"],
+              "correct": "wiązania wodorowe"
+            },
+            {
+              "id": "q-bp-1",
+              "type": "mcq",
+              "text": "Które białka proste są rozpuszczalne w wodzie?",
+              "options": [
+                "Albuminy",
+                "Kolagen",
+                "Keratyna"
+              ],
+              "correct": "Albuminy"
+            },
+            {
+              "id": "q-bp-2",
+              "type": "mcq",
+              "text": "Gdzie występują globuliny?",
+              "options": [
+                "W osoczu krwi",
+                "W wosku pszczelim",
+                "W drewnie"
+              ],
+              "correct": "W osoczu krwi"
+            },
+            {
+              "id": "q-bp-3",
+              "type": "mcq",
+              "text": "Do jakiej grupy białek należy keratyna (składnik włosów)?",
+              "options": [
+                "Skleroprotein",
+                "Albumin",
+                "Histonów"
+              ],
+              "correct": "Skleroprotein"
+            },
+            {
+              "id": "q-bp-4",
+              "type": "mcq",
+              "text": "Czy histony ścinają się podczas ogrzewania?",
+              "options": [
+                "Nie, nie ścinają się",
+                "Tak, bardzo szybko",
+                "Tak, ale tylko w obecności kwasu"
+              ],
+              "correct": "Nie, nie ścinają się"
+            },
+            {
+              "id": "q-bp-5",
+              "type": "mcq",
+              "text": "Kazeina jest przykładem:",
+              "options": ["fosfoproteiny", "glikoproteiny", "metaloproteiny"],
+              "correct": "fosfoproteiny"
+            },
+            {
+              "id": "q-bp-6",
+              "type": "mcq",
+              "text": "Hemina należy do:",
+              "options": ["nukleoprotein", "chromoprotein", "lipoprotein"],
+              "correct": "chromoprotein"
+            },
+            {
+              "id": "q-wc-1",
+              "type": "mcq",
+              "text": "Co dzieje się z białkiem pod wpływem wysokiej temperatury?",
+              "options": [
+                "Ścina się (denaturuje)",
+                "Rozpuszcza się",
+                "Krystalizuje"
+              ],
+              "correct": "Ścina się (denaturuje)"
+            },
+            {
+              "id": "q-wc-2",
+              "type": "mcq",
+              "text": "Jak alkohol wpływa na białko?",
+              "options": [
+                "Powoduje jego denaturację (ścięcie)",
+                "Nie ma wpływu",
+                "Powoduje jego syntezę"
+              ],
+              "correct": "Powoduje jego denaturację (ścięcie)"
+            },
+            {
+              "id": "q-wc-3",
+              "type": "mcq",
+              "text": "Czy wysalanie białek (koagulacja) jest procesem odwracalnym?",
+              "options": [
+                "Tak, jest to proces odwracalny",
+                "Nie, jest to proces nieodwracalny",
+                "Zależy od rodzaju soli"
+              ],
+              "correct": "Tak, jest to proces odwracalny"
+            },
+            {
+              "id": "q-wc-4",
+              "type": "mcq",
+              "text": "Jak nazywa się proces przechodzenia żelu w zol (np. po dodaniu wody)?",
+              "options": [
+                "Peptyzacja",
+                "Koagulacja",
+                "Denaturacja"
+              ],
+              "correct": "Peptyzacja"
+            },
+            {
+              "id": "q-rw-1",
+              "type": "mcq",
+              "text": "Reakcja biuretowa powoduje zmianę barwy na:",
+              "options": ["żółtą", "fioletową", "zieloną"],
+              "correct": "fioletową"
+            },
+            {
+              "id": "q-rw-2",
+              "type": "mcq",
+              "text": "Reakcja ksantoproteinowa daje barwę:",
+              "options": ["czerwoną", "niebieską", "żółtą"],
+              "correct": "żółtą"
+            },
+            {
+              "id": "q-p-1",
+              "type": "mcq",
+              "text": "W jakich warunkach zachodzi proces gnicia?",
+              "options": [
+                "Beztlenowych",
+                "Tlenowych",
+                "Obojętnych"
+              ],
+              "correct": "Beztlenowych"
+            },
+            {
+              "id": "q-p-2",
+              "type": "mcq",
+              "text": "W jakich warunkach zachodzi proces butwienia?",
+              "options": [
+                "Tlenowych",
+                "Beztlenowych",
+                "W próżni"
+              ],
+              "correct": "Tlenowych"
+            },
+            {
+              "id": "q-p-3",
+              "type": "mcq",
+              "text": "Jaki gaz o nieprzyjemnym zapachu powstaje podczas gnicia?",
+              "options": [
+                "Siarkowodór",
+                "Tlen",
+                "Azot"
+              ],
+              "correct": "Siarkowodór"
+            },
+            {
+              "id": "q-p-4",
+              "type": "mcq",
+              "text": "Co jest produktem procesu butwienia?",
+              "options": [
+                "Kompost (próchnica)",
+                "Siarkowodór",
+                "Plastik"
+              ],
+              "correct": "Kompost (próchnica)"
+            },
+            {
+              "id": "q-z-1",
+              "type": "mcq",
+              "text": "Żelatyna jest wykorzystywana jako:",
+              "options": ["konserwant", "emulgator i środek żelujący", "barwnik"],
+              "correct": "emulgator i środek żelujący"
+            },
+            {
+              "id": "q-z-2",
+              "type": "mcq",
+              "text": "Keratyna jest stosowana w:",
+              "options": ["klejach", "szamponach i odżywkach", "nawozach"],
+              "correct": "szamponach i odżywkach"
+            },
+            {
+              "id": "q-pt-1",
+              "type": "mcq",
+              "text": "Na czym polega liofilizacja?",
+              "options": [
+                "Na usuwaniu wody przez sublimację lodu",
+                "Na gotowaniu",
+                "Na soleniu"
+              ],
+              "correct": "Na usuwaniu wody przez sublimację lodu"
+            },
+            {
+              "id": "q-pt-2",
+              "type": "mcq",
+              "text": "Czego używa się do peklowania mięsa?",
+              "options": [
+                "Soli kuchennej i azotanów",
+                "Cukru i octu",
+                "Samej wody"
+              ],
+              "correct": "Soli kuchennej i azotanów"
+            },
+            {
+              "id": "q-pt-3",
+              "type": "mcq",
+              "text": "Jaki proces jest wykorzystywany przy kiszeniu?",
+              "options": [
+                "Fermentacja mlekowa",
+                "Fermentacja alkoholowa",
+                "Gnicie"
+              ],
+              "correct": "Fermentacja mlekowa"
+            },
+            {
+              "id": "q-pt-4",
+              "type": "mcq",
+              "text": "Co daje pakowanie próżniowe żywności?",
+              "options": [
+                "Usuwa powietrze i hamuje rozwój bakterii tlenowych",
+                "Dodaje powietrze",
+                "Zamraża produkt"
+              ],
+              "correct": "Usuwa powietrze i hamuje rozwój bakterii tlenowych"
+            },
+            {
+              "id": "q-pt-5",
+              "type": "mcq",
+              "text": "Metoda utrwalania z użyciem 10% kwasu octowego to:",
+              "options": ["kiszenie", "marynowanie", "wędzenie"],
+              "correct": "marynowanie"
+            }
+
+
+
+
+
+
           ]
         }
       ]
