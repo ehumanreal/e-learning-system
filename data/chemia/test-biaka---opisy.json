@@ -1,0 +1,149 @@
+{
+  "id": "biaka---opisy",
+  "name": "Rodzaje białek",
+  "questions": [
+    {
+      "id": "b-001",
+      "type": "mcq",
+      "text": "Które białka są rozpuszczalne w wodzie i ścinają się podczas ogrzewania?",
+      "options": [
+        "albuminy",
+        "globuliny",
+        "prolaminy"
+      ],
+      "correct": "albuminy"
+    },
+    {
+      "id": "b-002",
+      "type": "mcq",
+      "text": "Które białka są rozpuszczalne w kwasach, zasadach i solach?",
+      "options": [
+        "skleroproteiny",
+        "globuliny",
+        "lipoproteiny"
+      ],
+      "correct": "globuliny"
+    },
+    {
+      "id": "b-003",
+      "type": "mcq",
+      "text": "Które białka występują głównie w ziarnach zbóż?",
+      "options": [
+        "albuminy",
+        "histony",
+        "gluteliny"
+      ],
+      "correct": "gluteliny"
+    },
+    {
+      "id": "b-004",
+      "type": "mcq",
+      "text": "Które białka są rozpuszczalne w rozcieńczonych kwasach i zasadach?",
+      "options": [
+        "prolaminy",
+        "globuliny",
+        "fosfoproteiny"
+      ],
+      "correct": "prolaminy"
+    },
+    {
+      "id": "b-005",
+      "type": "mcq",
+      "text": "Które białka są nierozpuszczalne i należą do nich keratyna oraz kolagen?",
+      "options": [
+        "albuminy",
+        "skleroproteiny",
+        "glikoproteiny"
+      ],
+      "correct": "skleroproteiny"
+    },
+    {
+      "id": "b-006",
+      "type": "mcq",
+      "text": "Które białka mają charakter zasadowy i występują w ikrze?",
+      "options": [
+        "histony",
+        "lipoproteiny",
+        "protaminy"
+      ],
+      "correct": "protaminy"
+    },
+    {
+      "id": "b-007",
+      "type": "mcq",
+      "text": "Które białka nie ścinają się podczas ogrzewania?",
+      "options": [
+        "histony",
+        "albuminy",
+        "globuliny"
+      ],
+      "correct": "histony"
+    },
+    {
+      "id": "b-008",
+      "type": "mcq",
+      "text": "Którym przykładem białka jest kazeina?",
+      "options": [
+        "chromoproteiny",
+        "fosfoproteiny",
+        "nukleoproteiny"
+      ],
+      "correct": "fosfoproteiny"
+    },
+    {
+      "id": "b-009",
+      "type": "mcq",
+      "text": "Które białka zawierają RNA lub DNA?",
+      "options": [
+        "lipoproteiny",
+        "glikoproteiny",
+        "nukleoproteiny"
+      ],
+      "correct": "nukleoproteiny"
+    },
+    {
+      "id": "b-010",
+      "type": "mcq",
+      "text": "Które białka zawierają barwniki, np. chlorofil lub heminę?",
+      "options": [
+        "chromoproteiny",
+        "metaloproteiny",
+        "albuminy"
+      ],
+      "correct": "chromoproteiny"
+    },
+    {
+      "id": "b-011",
+      "type": "mcq",
+      "text": "Które białka zawierają metale takie jak Fe, Cu lub Zn?",
+      "options": [
+        "fosfoproteiny",
+        "metaloproteiny",
+        "prolaminy"
+      ],
+      "correct": "metaloproteiny"
+    },
+    {
+      "id": "b-012",
+      "type": "mcq",
+      "text": "Które białka są połączone z cukrami?",
+      "options": [
+        "lipoproteiny",
+        "albuminy",
+        "glikoproteiny"
+      ],
+      "correct": "glikoproteiny"
+    },
+    {
+      "id": "b-013",
+      "type": "mcq",
+      "text": "Które białka są połączone z tłuszczami?",
+      "options": [
+        "lipoproteiny",
+        "chromoproteiny",
+        "nukleoproteiny"
+      ],
+      "correct": "lipoproteiny"
+    }
+  ]
+}
