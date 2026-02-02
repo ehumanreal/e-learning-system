@@ -1,0 +1,171 @@
+{
+  "id": "1-3269",
+  "name": "1",
+  "questions": [
+    {
+      "id": "q-826894",
+      "type": "mcq",
+      "text": "aaa",
+      "options": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": "1"
+    },
+    {
+      "id": "q-add-1",
+      "type": "mcq",
+      "text": "Ile aminokwasów białkowych występuje w przyrodzie?",
+      "options": [
+        "20",
+        "100",
+        "5"
+      ],
+      "correct": "20"
+    },
+    {
+      "id": "q-add-2",
+      "type": "mcq",
+      "text": "Ile aminokwasów jest egzogennych (musi być dostarczonych z pożywieniem)?",
+      "options": [
+        "9",
+        "11",
+        "20"
+      ],
+      "correct": "9"
+    },
+    {
+      "id": "q-add-3",
+      "type": "mcq",
+      "text": "Czym jest gluten?",
+      "options": [
+        "Mieszaniną białek roślinnych (gliadyny i gluteniny)",
+        "Cukrem prostym",
+        "Rodzajem tłuszczu"
+      ],
+      "correct": "Mieszaniną białek roślinnych (gliadyny i gluteniny)"
+    },
+    {
+      "id": "q-add-4",
+      "type": "mcq",
+      "text": "W czym rozpuszczają się gluteliny (białka zbóż)?",
+      "options": [
+        "W kwasach i zasadach",
+        "W samej wodzie",
+        "W alkoholu"
+      ],
+      "correct": "W kwasach i zasadach"
+    },
+    {
+      "id": "q-add-5",
+      "type": "mcq",
+      "text": "Przykładem nukleoproteiny jest:",
+      "options": [
+        "DNA i RNA (połączenie z białkami)",
+        "Hemoglobina",
+        "Kazeina"
+      ],
+      "correct": "DNA i RNA (połączenie z białkami)"
+    },
+    {
+      "id": "q-add-6",
+      "type": "mcq",
+      "text": "Co zawierają metaloproteiny?",
+      "options": [
+        "Atomy metali (np. miedź, żelazo, cynk)",
+        "Reszty kwasu fosforowego",
+        "Cukry"
+      ],
+      "correct": "Atomy metali (np. miedź, żelazo, cynk)"
+    },
+    {
+      "id": "q-add-7",
+      "type": "mcq",
+      "text": "Do czego w przemyśle chemicznym wykorzystuje się kazeinę?",
+      "options": [
+        "Do produkcji klejów",
+        "Do produkcji paliwa",
+        "Do produkcji szkła"
+      ],
+      "correct": "Do produkcji klejów"
+    },
+    {
+      "id": "q-add-8",
+      "type": "mcq",
+      "text": "Z czego produkuje się osłonki kulek do paintballa?",
+      "options": [
+        "Z żelatyny",
+        "Z plastiku",
+        "Z celulozy"
+      ],
+      "correct": "Z żelatyny"
+    },
+    {
+      "id": "q-add-9",
+      "type": "mcq",
+      "text": "Jaką funkcję pełni gluten w wypiekach?",
+      "options": [
+        "Nadaje ciastu kleistość i ciągliwość",
+        "Nadaje słodki smak",
+        "Powoduje szybkie psucie się ciasta"
+      ],
+      "correct": "Nadaje ciastu kleistość i ciągliwość"
+    },
+    {
+      "id": "q-add-10",
+      "type": "mcq",
+      "text": "Na czym polega konserwujące działanie soli i cukru?",
+      "options": [
+        "Na wydzielaniu wody z komórek bakterii (osmoza)",
+        "Na obniżeniu temperatury",
+        "Na zmianie pH na zasadowe"
+      ],
+      "correct": "Na wydzielaniu wody z komórek bakterii (osmoza)"
+    },
+    {
+      "id": "q-add-11",
+      "type": "mcq",
+      "text": "Jak działa dym wędzarniczy na żywność?",
+      "options": [
+        "Grzybobójczo i bakteriobójczo",
+        "Nawilżająco",
+        "Przyspiesza psucie"
+      ],
+      "correct": "Grzybobójczo i bakteriobójczo"
+    },
+    {
+      "id": "q-add-12",
+      "type": "mcq",
+      "text": "Ile wody usuwa się zazwyczaj podczas suszenia żywności?",
+      "options": [
+        "Około 70%",
+        "100%",
+        "10%"
+      ],
+      "correct": "Około 70%"
+    },
+    {
+      "id": "q-add-13",
+      "type": "mcq",
+      "text": "Czego używa się w przemyśle do szybkiego mrożenia żywności?",
+      "options": [
+        "Ciekłego azotu",
+        "Suchego lodu",
+        "Zimnej wody"
+      ],
+      "correct": "Ciekłego azotu"
+    },
+    {
+      "id": "q-add-14",
+      "type": "mcq",
+      "text": "Jaki jest skutek gotowania żywności?",
+      "options": [
+        "Denaturacja białek i ułatwienie trawienia",
+        "Zwiększenie zawartości witamin",
+        "Zwiększenie twardości mięsa"
+      ],
+      "correct": "Denaturacja białek i ułatwienie trawienia"
+    }
+  ]
+}

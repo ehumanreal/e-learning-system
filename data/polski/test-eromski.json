@@ -1,0 +1,524 @@
+{
+  "id": "eromski",
+  "name": "Żeromski",
+  "questions": [
+    {
+      "id": "q-004078",
+      "type": "mcq",
+      "text": "Kiedy urodził się Stefan Żeromski",
+      "options": [
+        "10 grudnia 1867 r",
+        "14 października 1864 r",
+        "20 września 1860 r"
+      ],
+      "correct": "14 października 1864 r"
+    },
+    {
+      "id": "q-053253",
+      "type": "mcq",
+      "text": "Gdzie się urodził Stefan Żeromski",
+      "options": [
+        "w Strawczynie",
+        "w Katowicach",
+        "w Sosnowcu"
+      ],
+      "correct": "w Strawczynie"
+    },
+    {
+      "id": "q-zer-01",
+      "type": "mcq",
+      "text": "Gdzie i kiedy zmarł Stefan Żeromski?",
+      "options": [
+        "20 listopada 1925 r. w Warszawie",
+        "14 października 1864 r. w Strawczynie",
+        "1 września 1939 r. w Krakowie"
+      ],
+      "correct": "20 listopada 1925 r. w Warszawie"
+    },
+    {
+      "id": "q-zer-02",
+      "type": "mcq",
+      "text": "Jakie epoki literackie są związane z twórczością Żeromskiego?",
+      "options": [
+        "Romantyzm i Pozytywizm",
+        "Młoda Polska oraz dwudziestolecie międzywojenne",
+        "Oświecenie i Romantyzm"
+      ],
+      "correct": "Młoda Polska oraz dwudziestolecie międzywojenne"
+    },
+    {
+      "id": "q-zer-03",
+      "type": "mcq",
+      "text": "Jakie były trzy główne dziedziny działalności artystycznej Żeromskiego?",
+      "options": [
+        "Poeta, malarz, rzeźbiarz",
+        "Kompozytor, aktor, reżyser",
+        "Prozaik, publicysta, dramaturg"
+      ],
+      "correct": "Prozaik, publicysta, dramaturg"
+    },
+    {
+      "id": "q-zer-04",
+      "type": "mcq",
+      "text": "Jak nazywano Stefana Żeromskiego ze względu na jego zaangażowanie społeczne?",
+      "options": [
+        "Sumieniem narodu",
+        "Wieszczem narodowym",
+        "Królem literatury polskiej"
+      ],
+      "correct": "Sumieniem narodu"
+    },
+    {
+      "id": "q-zer-05",
+      "type": "mcq",
+      "text": "Jakie pseudonimy literackie stosował Żeromski?",
+      "options": [
+        "Bolesław Prus, Jan Kowalski",
+        "Maurycy Zych, Józef Katerla",
+        "Henryk Sienkiewicz, Litwos"
+      ],
+      "correct": "Maurycy Zych, Józef Katerla"
+    },
+    {
+      "id": "q-zer-06",
+      "type": "mcq",
+      "text": "Z jakiego stanu społecznego pochodziła rodzina Stefana Żeromskiego?",
+      "options": [
+        "Z bogatej arystokracji",
+        "Z rodziny chłopskiej",
+        "Ze zubożałej rodziny szlacheckiej"
+      ],
+      "correct": "Ze zubożałej rodziny szlacheckiej"
+    },
+    {
+      "id": "q-zer-07",
+      "type": "mcq",
+      "text": "W jakim gimnazjum uczył się Żeromski przez 12 lat?",
+      "options": [
+        "W Męskim Gimnazjum Rządowym w Kielcach",
+        "W Liceum Ogólnokształcącym w Warszawie",
+        "W Szkole Realnej w Krakowie"
+      ],
+      "correct": "W Męskim Gimnazjum Rządowym w Kielcach"
+    },
+    {
+      "id": "q-zer-08",
+      "type": "mcq",
+      "text": "Dlaczego Żeromski nie uzyskał matury?",
+      "options": [
+        "Z powodu słabych wyników z języka polskiego",
+        "Z powodu trudnej sytuacji materialnej i choroby",
+        "Został wyrzucony ze szkoły za działalność polityczną"
+      ],
+      "correct": "Z powodu trudnej sytuacji materialnej i choroby"
+    },
+    {
+      "id": "q-zer-09",
+      "type": "mcq",
+      "text": "W jakim czasopiśmie zadebiutował literacko w 1882 roku?",
+      "options": [
+        "Kurierze Warszawskim",
+        "Gazecie Polskiej",
+        "Tygodniku Mód i Powieści"
+      ],
+      "correct": "Tygodniku Mód i Powieści"
+    },
+    {
+      "id": "q-zer-10",
+      "type": "mcq",
+      "text": "Jakie studia rozpoczął w Warszawie (niewymagające matury)?",
+      "options": [
+        "Instytut Weterynarii",
+        "Medycynę",
+        "Prawo"
+      ],
+      "correct": "Instytut Weterynarii"
+    },
+    {
+      "id": "q-zer-11",
+      "type": "mcq",
+      "text": "Jaką funkcję pełnił Żeromski w Rzeczpospolitej Zakopiańskiej (1918)?",
+      "options": [
+        "Burmistrza Zakopanego",
+        "Prezydenta",
+        "Dyrektora Teatru"
+      ],
+      "correct": "Prezydenta"
+    },
+    {
+      "id": "q-zer-12",
+      "type": "mcq",
+      "text": "Która powieść Żeromskiego porusza problem rozczarowania odzyskaną niepodległością?",
+      "options": [
+        "Syzyfowe prace",
+        "Ludzie bezdomni",
+        "Przedwiośnie"
+      ],
+      "correct": "Przedwiośnie"
+    },
+    {
+      "id": "q-zer-13",
+      "type": "mcq",
+      "text": "Co symbolizują „szklane domy” w Przedwiośniu?",
+      "options": [
+        "Utopijną wizję idealnej Polski",
+        "Nowoczesne budownictwo Warszawy",
+        "Bogactwo polskiej arystokracji"
+      ],
+      "correct": "Utopijną wizję idealnej Polski"
+    },
+    {
+      "id": "q-zer-14",
+      "type": "mcq",
+      "text": "Jakie dzieło przyniosło mu Państwową Nagrodę Literacką?",
+      "options": [
+        "Przedwiośnie",
+        "Wiatr od morza",
+        "Popioły"
+      ],
+      "correct": "Wiatr od morza"
+    },
+    {
+      "id": "q-zer-15",
+      "type": "mcq",
+      "text": "Jakie były poglądy religijne Stefana Żeromskiego?",
+      "options": [
+        "Był głęboko wierzącym katolikiem",
+        "Był wyznawcą prawosławia",
+        "Był agnostykiem o poglądach antyklerykalnych"
+      ],
+      "correct": "Był agnostykiem o poglądach antyklerykalnych"
+    },
+    {
+      "id": "q-zer-16",
+      "type": "mcq",
+      "text": "Jak miała na imię pierwsza żona Stefana Żeromskiego?",
+      "options": [
+        "Oktawia",
+        "Anna",
+        "Maria"
+      ],
+      "correct": "Oktawia"
+    },
+    {
+      "id": "q-zer-17",
+      "type": "mcq",
+      "text": "Ile razy Żeromski był nominowany do Nagrody Nobla?",
+      "options": [
+        "Ani razu",
+        "Cztery razy",
+        "Jeden raz"
+      ],
+      "correct": "Cztery razy"
+    },
+    {
+      "id": "q-zer-18",
+      "type": "mcq",
+      "text": "Gdzie znajduje się grób Stefana Żeromskiego?",
+      "options": [
+        "Na Wawelu",
+        "Na Cmentarzu Powązkowskim (Wojskowym)",
+        "Na cmentarzu ewangelicko-reformowanym w Warszawie"
+      ],
+      "correct": "Na cmentarzu ewangelicko-reformowanym w Warszawie"
+    },
+    {
+      "id": "q-zer-19",
+      "type": "mcq",
+      "text": "Jakie muzeum poświęcone Żeromskiemu znajduje się w Nałęczowie?",
+      "options": [
+        "Chata (pracownia pisarza)",
+        "Dworek w Oblęgorku",
+        "Mieszkanie na Starówce"
+      ],
+      "correct": "Chata (pracownia pisarza)"
+    },
+    {
+      "id": "q-zer-20",
+      "type": "mcq",
+      "text": "W jakiej miejscowości Żeromski spędził dzieciństwo i młodość?",
+      "options": [
+        "W Nałęczowie",
+        "W Ciekotach",
+        "W Zakopanem"
+      ],
+      "correct": "W Ciekotach"
+    },
+    {
+      "id": "q-zer-21",
+      "type": "mcq",
+      "text": "Jakie przedmioty sprawiały Żeromskiemu szczególne trudności w szkole?",
+      "options": [
+        "Język polski",
+        "Historia",
+        "Matematyka"
+      ],
+      "correct": "Matematyka"
+    },
+    {
+      "id": "q-zer-22",
+      "type": "mcq",
+      "text": "Z jakimi środowiskami politycznymi był związany Żeromski?",
+      "options": [
+        "Z ruchem socjalistycznym i niepodległościowym (PPS)",
+        "Z Narodową Demokracją (Endecją)",
+        "Z ruchem ludowym (PSL)"
+      ],
+      "correct": "Z ruchem socjalistycznym i niepodległościowym (PPS)"
+    },
+    {
+      "id": "q-zer-23",
+      "type": "mcq",
+      "text": "Jakie inicjatywy oświatowe wspierał Żeromski?",
+      "options": [
+        "Zakładanie prywatnych szkół dla arystokracji",
+        "Uniwersytet Ludowy i kursy dokształcające",
+        "Budowę kościołów"
+      ],
+      "correct": "Uniwersytet Ludowy i kursy dokształcające"
+    },
+    {
+      "id": "q-zer-24",
+      "type": "mcq",
+      "text": "Czym była Rzeczpospolita Zakopiańska?",
+      "options": [
+        "Powieścią Żeromskiego",
+        "Tajną organizacją wojskową",
+        "Krótkotrwałą formą niezależnej władzy polskiej w Zakopanem w 1918 r."
+      ],
+      "correct": "Krótkotrwałą formą niezależnej władzy polskiej w Zakopanem w 1918 r."
+    },
+    {
+      "id": "q-zer-25",
+      "type": "mcq",
+      "text": "Który zestaw zawiera wyłącznie utwory Stefana Żeromskiego?",
+      "options": [
+        "Przedwiośnie, Ludzie bezdomni, Popioły",
+        "Lalka, Faraon, Placówka",
+        "Wesele, Chłopi, Noc listopadowa"
+      ],
+      "correct": "Przedwiośnie, Ludzie bezdomni, Popioły"
+    },
+    {
+      "id": "q-zer-26",
+      "type": "mcq",
+      "text": "Który utwór ukazuje dramat inteligenta (doktora Judyma) rozdartego między ideałami a rzeczywistością?",
+      "options": [
+        "Siłaczka",
+        "Ludzie bezdomni",
+        "Zmierzch"
+      ],
+      "correct": "Ludzie bezdomni"
+    },
+    {
+      "id": "q-zer-27",
+      "type": "mcq",
+      "text": "Jakie problemy społeczne najczęściej poruszał Żeromski?",
+      "options": [
+        "Życie dworskie arystokracji",
+        "Podróże zagraniczne",
+        "Ubóstwo, nierówności społeczne i krzywdę chłopów"
+      ],
+      "correct": "Ubóstwo, nierówności społeczne i krzywdę chłopów"
+    },
+    {
+      "id": "q-zer-28",
+      "type": "mcq",
+      "text": "Który utwór powstał pod wpływem rewolucji 1905 roku?",
+      "options": [
+        "Róża",
+        "Wierna rzeka",
+        "Syzyfowe prace"
+      ],
+      "correct": "Róża"
+    },
+    {
+      "id": "q-zer-29",
+      "type": "mcq",
+      "text": "Kim był Edward Abramowski, który miał duży wpływ na poglądy Żeromskiego?",
+      "options": [
+        "Przywódcą partii komunistycznej",
+        "Filozofem, socjologiem i teoretykiem spółdzielczości",
+        "Malarzem Młodej Polski"
+      ],
+      "correct": "Filozofem, socjologiem i teoretykiem spółdzielczości"
+    },
+    {
+      "id": "q-zer-30",
+      "type": "mcq",
+      "text": "Co było głównym tematem tekstu „Początek świata pracy”?",
+      "options": [
+        "Krytyka kapitalizmu w USA",
+        "Opis przyrody tatrzańskiej",
+        "Rola pracy i organizacji robotniczych w budowie państwa"
+      ],
+      "correct": "Rola pracy i organizacji robotniczych w budowie państwa"
+    },
+    {
+      "id": "q-zer-31",
+      "type": "mcq",
+      "text": "Z kim związał się Żeromski po 1908 roku (druga rodzina)?",
+      "options": [
+        "Z Anną Zawadzką",
+        "Z Marią Konopnicką",
+        "Z Elizą Orzeszkową"
+      ],
+      "correct": "Z Anną Zawadzką"
+    },
+    {
+      "id": "q-zer-32",
+      "type": "mcq",
+      "text": "Jak syn Adam zareagował na nowy związek ojca?",
+      "options": [
+        "Zaakceptował go od razu",
+        "Sprzeciwił się, co doprowadziło do konfliktu",
+        "Wyjechał z ojcem za granicę"
+      ],
+      "correct": "Sprzeciwił się, co doprowadziło do konfliktu"
+    },
+    {
+      "id": "q-zer-33",
+      "type": "mcq",
+      "text": "Komu Żeromski zapisał swój majątek w testamencie?",
+      "options": [
+        "Pierwszej żonie Oktawii",
+        "Muzeum Narodowemu",
+        "Annie Zawadzkiej i córce Monice"
+      ],
+      "correct": "Annie Zawadzkiej i córce Monice"
+    },
+    {
+      "id": "q-zer-34",
+      "type": "mcq",
+      "text": "Jakie najwyższe odznaczenie państwowe otrzymał Żeromski pośmiertnie?",
+      "options": [
+        "Order Orła Białego",
+        "Order Virtuti Militari",
+        "Krzyż Zasługi"
+      ],
+      "correct": "Order Orła Białego"
+    },
+    {
+      "id": "q-zer-35",
+      "type": "mcq",
+      "text": "Z jakiej okazji rok 2025 został ustanowiony Rokiem Stefana Żeromskiego?",
+      "options": [
+        "W 160. rocznicę urodzin",
+        "W 100. rocznicę śmierci pisarza",
+        "W 50. rocznicę wydania Przedwiośnia"
+      ],
+      "correct": "W 100. rocznicę śmierci pisarza"
+    },
+    {
+      "id": "q-zer-36",
+      "type": "mcq",
+      "text": "W jaki sposób biografia Żeromskiego wpłynęła na jego twórczość?",
+      "options": [
+        "Nie miała wpływu, pisał tylko fikcję",
+        "Pisał tylko o życiu arystokracji, z której pochodził",
+        "Osobiste doświadczenia biedy i choroby ukształtowały jego wrażliwość społeczną"
+      ],
+      "correct": "Osobiste doświadczenia biedy i choroby ukształtowały jego wrażliwość społeczną"
+    },
+    {
+      "id": "q-zer-37",
+      "type": "mcq",
+      "text": "Jak Tatry wpłynęły na twórczość Żeromskiego?",
+      "options": [
+        "Były inspiracją dla opisów przyrody i symboliki wolności",
+        "Nie lubił gór i rzadko o nich pisał",
+        "Traktował je tylko jako tło turystyczne"
+      ],
+      "correct": "Były inspiracją dla opisów przyrody i symboliki wolności"
+    },
+    {
+      "id": "q-zer-38",
+      "type": "mcq",
+      "text": "Dlaczego „Przedwiośnie” uznaje się za powieść rozrachunkową?",
+      "options": [
+        "Bo jest to autobiografia autora",
+        "Bo ukazuje rozczarowanie rzeczywistością niepodległej Polski",
+        "Bo opisuje historię rachunkowości"
+      ],
+      "correct": "Bo ukazuje rozczarowanie rzeczywistością niepodległej Polski"
+    },
+    {
+  "id": "q-zer-39",
+  "type": "mcq",
+  "text": "Ile lat Stefan Żeromski uczył się w gimnazjum w Kielcach?",
+  "options": [
+    "6 lat",
+    "8 lat",
+    "12 lat"
+  ],
+  "correct": "12 lat"
+},
+{
+  "id": "q-zer-40",
+  "type": "mcq",
+  "text": "Który z pseudonimów literackich również należał do Stefana Żeromskiego?",
+  "options": [
+    "Stefan Iksmoreż",
+    "Litwos",
+    "Jan Cedzyna"
+  ],
+  "correct": "Stefan Iksmoreż"
+},
+{
+  "id": "q-zer-41",
+  "type": "mcq",
+  "text": "Który utwór Żeromskiego jest opowiadaniem o rusyfikacji młodzieży szkolnej?",
+  "options": [
+    "Syzyfowe prace",
+    "Popioły",
+    "Wiatr od morza"
+  ],
+  "correct": "Syzyfowe prace"
+},
+{
+  "id": "q-zer-42",
+  "type": "mcq",
+  "text": "Który zestaw zawiera inne utwory rewolucyjne Stefana Żeromskiego?",
+  "options": [
+    "Nagi bruk, Sen o szpadzie, Nokturn",
+    "Chłopi, Wesele, Noc listopadowa",
+    "Krzyżacy, Potop, Quo vadis"
+  ],
+  "correct": "Nagi bruk, Sen o szpadzie, Nokturn"
+},
+{
+  "id": "q-zer-43",
+  "type": "mcq",
+  "text": "Jak miała na imię córka Stefana Żeromskiego z Anną Zawadzką?",
+  "options": [
+    "Monika",
+    "Maria",
+    "Helena"
+  ],
+  "correct": "Monika"
+},
+{
+  "id": "q-zer-44",
+  "type": "mcq",
+  "text": "Dlaczego Żeromskiego nazywa się także „sumieniem polskiej literatury”?",
+  "options": [
+    "Ponieważ pisał wyłącznie powieści historyczne",
+    "Ponieważ konsekwentnie oceniał moralny stan społeczeństwa",
+    "Ponieważ był krytykiem literackim"
+  ],
+  "correct": "Ponieważ konsekwentnie oceniał moralny stan społeczeństwa"
+},
+{
+  "id": "q-zer-45",
+  "type": "mcq",
+  "text": "Jakiego rodzaju działalność społeczna była szczególnie ważna dla Żeromskiego?",
+  "options": [
+    "Tworzenie salonów literackich",
+    "Działalność oświatowa i pomoc najuboższym",
+    "Praca dyplomatyczna"
+  ],
+  "correct": "Działalność oświatowa i pomoc najuboższym"
+}
+
+  ]
+}
